@@ -37,6 +37,6 @@ function async_save(file,data,callbackDone){
 module.exports = {
 
   create_file : create_file,
-  async_save : async_save
-
+  async_save : async_save,
+  read_file : read_file
 }
