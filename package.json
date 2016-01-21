@@ -1,0 +1,16 @@
+{
+  "title": "RepoRead",
+  "name": "reporead",
+  "version": "0.0.1",
+  "description": "An add-on which keeps track of github repos read",
+  "main": "index.js",
+  "author": "girish ramnani",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
