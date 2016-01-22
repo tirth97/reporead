@@ -1,2 +1,2 @@
 # reporead
-A simple addon to keep track of github repos read. 
+A simple firefox addon to keep track of github repos read. 
