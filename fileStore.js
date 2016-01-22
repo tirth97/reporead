@@ -13,19 +13,14 @@ try {
   return content;
 }
 catch(e){
-  return [];
+  return "[]";
 }
 
 }
 
 function populate_repo(filename){
   var data = read_file(filename);
-  console.log(data);
-  if (data instanceof String){
     return JSON.parse(data);
-  }
-  return data;
-
 }
 
 

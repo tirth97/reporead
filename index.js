@@ -9,6 +9,8 @@ tabs.on("ready",handlePage);
 tabs.on("open",function() { change_icon("32.png")});
 
 repos = fileStore.populate_repo(".repo.json");
+console.log(repos);
+console.log(repos.push);
 
 
 var button = buttons.ActionButton({
